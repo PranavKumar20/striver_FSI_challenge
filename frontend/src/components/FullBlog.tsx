@@ -35,12 +35,12 @@ export const FullBlog = ({ blog }: { blog: Blog }) => {
               </div>
             </div>
             <div className="flex mt-4">
-              <div className="text-lg pr-2">Created on : </div>
-              <div className="text-slate-500 text-lg">{formattedDate}</div>
+              <div className="md:text-lg text-sm pr-2">Created on : </div>
+              <div className="text-slate-500 md:text-lg text-sm">{formattedDate}</div>
             </div>
             <div className="flex">
-              <div className="text-lg pr-2">Language : </div>
-              <div className="text-slate-500 text-lg">{blog.language}</div>
+              <div className="md:text-lg text-sm pr-2">Language : </div>
+              <div className="text-slate-500 md:text-lg text-sm">{blog.language}</div>
             </div>
           </div>
         </div>
